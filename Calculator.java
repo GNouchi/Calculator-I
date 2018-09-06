@@ -1,6 +1,6 @@
 package folderOne.Calculator;
-//implements java.io.Serializable
-public class Calculator {
+
+public class Calculator implements java.io.Serializable{
 	private String operation ="";
 	private double firstVar;
 	private double secondVar;
